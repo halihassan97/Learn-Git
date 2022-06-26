@@ -18,7 +18,7 @@
 
     echo file_get_contents('https://ipapi.co/currency/');
 
-
+$test = "Hey";
 
 $ch=curl_init();
 curl_setopt($ch,CURLOPT_URL,"http://ip-api.com/json");
